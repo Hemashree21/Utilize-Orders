@@ -4,9 +4,9 @@ import { database } from './FirebaseConfig';
 import { collection, addDoc, doc, getDoc, updateDoc } from 'firebase/firestore';
 
 const productValues = {
-    'Product 1': 100,
-    'Product 2': 200,
-    'Product 3': 300,
+    'Product 1': 29,
+    'Product 2': 49,
+    'Product 3': 149,
 };
 
 const CreateOrder = () => {
