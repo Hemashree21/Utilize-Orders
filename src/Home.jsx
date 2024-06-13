@@ -105,7 +105,7 @@ const Home = () => {
                 />
                 <button onClick={handleCreate} className='btn-createorder'>Create New Order</button>
                 <div className='total-order-value'>
-                    Total Order Value: ${totalOrderValue.toFixed(2)}
+                    Total Order Value: Rs {totalOrderValue.toFixed(2)}
                 </div>
                 <table border="1" className='styled-table'>
                     <thead>
